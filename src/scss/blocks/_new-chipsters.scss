@@ -1,0 +1,128 @@
+.new-chipsters {
+    background: url('../img/sign-up/sign-upBG.png') center center / cover no-repeat, #DCD0C7;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    &__title {
+        background: #A0D800;
+        width: 769px;
+        height: 769px;
+        border-radius: 50%;
+        position: absolute;
+        top: -391px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 391px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title {
+        position: relative; 
+        left: auto;
+        top: auto;
+        transform: none;
+    }
+
+    .subtitle {
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        text-shadow: -5px -3px 0px #E6007E;
+        transform: rotate(-0.12deg);
+        span {
+            padding: 1px 60px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 60px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #EDFF00;
+            background: #E6007E;
+            box-shadow: -12px 9px 0px #91155A;
+            transform: rotate(-2.37deg);
+            &.mt {
+                display: inline-block;
+                margin: -5px auto 0 auto;
+            }
+        }
+      
+            
+    }
+
+    .hashtag {
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 2px 3px 1px #778000;
+        margin-top: 40px;
+    }
+
+    .right__hand, .left_hand {
+        position: absolute;
+        top: 0;
+    }
+
+    .right__hand {
+        right: 0;
+    }
+
+    .chips {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__bottom {
+        .chipsters__list {
+            display: flex;
+            justify-content: center;
+            .chips {
+                img {
+                    max-width: 470px;
+                }
+                &_1 img {
+                    transform: rotate(30.99deg);
+                }
+                &_2 img {
+                    transform: rotate(17.45deg);
+                }
+                &_3 img {
+                    transform: rotate(-16.29deg);
+                }
+                &_4 img {
+                    transform: rotate(-29.97deg);
+                }
+            }
+        }
+        &-text {
+            height: 285px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: url('../img/new-chipters/limit.svg') center center / contain no-repeat;
+            text-align: center;
+            span {
+                font-style: italic;
+                font-weight: 800;
+                font-size: 30px;
+                line-height: 38px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                transform: rotate(-9.63deg);
+                text-align: center;
+            }
+            
+           
+        }
+        
+    }
+}

@@ -1,0 +1,34 @@
+@import 'fonts';
+@import 'libs/normalize';
+@import 'blocks/animate.min';
+@import 'blocks/fullpage.min';
+
+.wrapper {
+    overflow: hidden;
+}
+
+* {
+    font-family: 'Gilroy';
+    -webkit-touch-callout: none; 
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;           
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    a {
+        display: block;
+    }
+    img {
+        display: block;
+    }
+}
+
+@import 'blocks/sign-up';
+@import 'blocks/new-chipsters';
+@import 'blocks/video-main';

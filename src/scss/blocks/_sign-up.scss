@@ -1,0 +1,85 @@
+.sign-up {
+    min-height: 100vh;
+    background: url('../img/sign-up/sign-upBG.png') center center / cover no-repeat, #C2D8EA;
+    position: relative;
+    overflow: hidden;
+    .lips {
+        position: absolute;
+        top: 280px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .chipsters__list {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 50%;
+        .chips {
+            img {
+                max-width: 354px;
+            }
+            &_1 {
+                position: absolute;
+                bottom: -160px;
+                right: 210px;
+                z-index: 2;
+                transform: rotate(-59.26deg)
+            }
+            &_2 {
+                position: absolute;
+                z-index: 5;
+                transform: rotate(-14.61deg);
+                bottom: -115px;
+                right: -75px;
+            }
+            &_3 {
+                position: absolute;
+                z-index: 4;
+                transform: rotate(-33.18deg);
+                right: 55px;
+                bottom: -20px;
+            }
+            &_4 {
+                position: absolute;
+                transform: rotate(-5.53deg);
+                z-index: 3;
+                right: -100px;
+                bottom: 42px;
+            }
+        }
+    }
+
+    .chips__item {
+        display: inline-flex;
+        align-items: flex-end;
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column-reverse;
+
+        .item {
+            &1 {
+                position: absolute;
+                top: 400px;
+                right: 255px;
+            }
+            &2 {
+                position: absolute;
+                top: 255px;
+                right: 189px;
+            }
+            &3 {
+                position: absolute;
+                top: 50px;
+                right: 70px;
+            }
+        }
+    }
+
+    .stars {
+        position: absolute;
+        right: 398px;
+        top: 159px;
+    }
+}
